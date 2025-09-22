@@ -1,0 +1,23 @@
+.surpresa{
+    background-color: blue;
+    width: 300px;
+    padding: 30px;
+    color: white;
+
+}
+.surpresa > p {
+    display: none;
+}
+.surpresa:hover > p{/*hover= psedoclasse*/
+    display: inline;
+}
+.surpresa:hover{
+    background-color: darkred;/*ele é uma classe dependente da primeira classe (funciona com certas condições)*/
+}
+#p1{
+    display: inline;
+    width: 200px;
+}
+#p1:hover > img{
+    width: 500px;
+}
