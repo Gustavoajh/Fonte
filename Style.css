@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap');
+
+body{
+    background-color: pink;
+    margin: 20px;
+}
+#cabeçalho{
+    color: rgb(197, 26, 169);
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;/*decoração do texto*/
+}
+.titulo_principal{
+    font-style: italic;/*muda o estilo da fonte*/
+    font-weight: bolder;/*Muda a grossura da fonte(Peso da fonte)*/
+    font-family: "Bitcount Prop Double Ink", system-ui ;/*A família das fontes*/
+}
+.titulo2{
+    color: rgb(255, 0, 0);
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+}
+.caixa1{
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#p1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
